@@ -24,7 +24,7 @@ os.makedirs("images", exist_ok=True)
 # LOAD DATASET
 # ============================================================
 
-df = pd.read_csv("dataset/creditcard.csv")
+df = pd.read_csv("dataset/cleaned_creditcard.csv")
 
 # ============================================================
 # FIRST 5 ROWS
